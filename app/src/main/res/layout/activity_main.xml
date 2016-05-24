@@ -12,4 +12,15 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 
+    <Button
+        android:id="@+id/ok_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="32sp"
+        android:text="@string/Back_button_label"
+        android:onClick="moveCamera"/>
+
+
+
 </RelativeLayout>
